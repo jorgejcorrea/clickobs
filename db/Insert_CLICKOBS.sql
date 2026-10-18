@@ -16,10 +16,10 @@ VALUES
 
 INSERT INTO usuario (id_usuario, nombre, id_rol, id_tribu)
 VALUES
-    (1, 'Diego Farias', 1, 1),
-    (2, 'Referente SRE Infraestructura', 2, 1),
-    (3, 'Referente DevOps Pagos', 3, 2),
-    (4, 'Referente Finanzas', 4, 1);
+    (1, 'dfarias', 1, 1),
+    (2, 'sre.infra', 2, 1),
+    (3, 'devops.pagos', 3, 2),
+    (4, 'finanzas', 4, 1);
 
 
 INSERT INTO servicio (id_servicio, nombre, id_tribu, criticidad)

@@ -1,0 +1,27 @@
+.button-primary {
+    -fx-background-color: #4A90D9;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 4;
+}
+.button-primary:hover { -fx-background-color: #2E6DA4; }
+.button-primary:disabled { -fx-opacity: 0.5; }
+.titulo { -fx-font-size: 16px; -fx-font-weight: bold; }
+.titulo-grande { -fx-font-size: 30px; -fx-font-weight: bold; -fx-text-fill: #2E6DA4; }
+.sidebar { -fx-background-color: #E3E3E3; }
+.sidebar-button { -fx-alignment: CENTER_LEFT; -fx-background-color: transparent; -fx-font-size: 13px; }
+.sidebar-button:hover { -fx-background-color: #4A90D9; -fx-text-fill: white; }
+.error { -fx-text-fill: #B3261E; }
+.hint { -fx-text-fill: #6C6B65; -fx-font-size: 11px; }
+.card { -fx-background-color: #EAF2FB; -fx-border-color: #4A90D9; -fx-border-radius: 4; -fx-background-radius: 4; -fx-padding: 12; }
+.ahorro { -fx-text-fill: #0F6E56; -fx-font-weight: bold; }
+.kpi { -fx-background-color: white; -fx-border-color: #D0D0CB; -fx-border-radius: 6; -fx-background-radius: 6; -fx-padding: 10 12 10 12; }
+.kpi-etiqueta { -fx-text-fill: #5F5E5A; -fx-font-size: 11px; }
+.kpi-valor { -fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #2E6DA4; }
+.kpi-ahorro .kpi-valor { -fx-text-fill: #0F6E56; }
+.kpi-alerta .kpi-valor { -fx-text-fill: #B3261E; }
+.kpi-alerta { -fx-border-color: #E5A5A0; }
+.dona-centro { -fx-fill: -fx-background; }
+.dona-total { -fx-font-size: 12px; -fx-text-fill: #2C2C2A; -fx-font-weight: bold; }
+.grafico-titulo { -fx-font-size: 16px; }
+.sidebar-button-activo { -fx-background-color: #4A90D9; -fx-text-fill: white; -fx-font-weight: bold; }

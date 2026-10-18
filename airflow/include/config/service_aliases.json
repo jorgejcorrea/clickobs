@@ -1,0 +1,15 @@
+{
+  "dynatrace": {
+    "Gateway de infraestructura": "Gateway de infraestructura",
+    "API de pagos": "API de pagos"
+  },
+  "datadog": {
+    "API de pagos": "API de pagos"
+  },
+  "prometheus": {
+    "core-cuentas": "Core de cuentas"
+  },
+  "elastic": {
+    "app-mobile-*": "App mobile"
+  }
+}
