@@ -8,4 +8,4 @@ mkdir -p out && javac -d out --module-path $PATH_TO_FX --add-modules javafx.cont
 export CLICKOBS_DB_URL="jdbc:mysql://HOST:3306/clickobs" CLICKOBS_DB_USER=... CLICKOBS_DB_PASSWORD=...
 java -cp "out:RUTA/mysql-connector-j.jar" PruebasClickobs
 ```
-Los casos con base de datos dejan los datos como los encontraron. Corrida de referencia del TP4 sobre MariaDB 10.11: 127 OK, 0 FALLO (la corrida de 77 casos del TP3 fue sobre MySQL 8.0; repetir los 127 sobre MySQL 8.0). Se ejecuta desde la raíz del repositorio: algunas pruebas leen `src/` para verificar la regla de dependencias del MVC; requiere un usuario con permisos de INSERT, UPDATE y DELETE sobre `clickobs`.
+Los casos con base de datos dejan los datos como los encontraron. Corrida de referencia del TP4 sobre MySQL 8.0.46: 127 OK, 0 FALLO (también 127 OK sobre MariaDB 10.11). Se ejecuta desde la raíz del repositorio: algunas pruebas leen `src/` para verificar la regla de dependencias del MVC; requiere un usuario con permisos de INSERT, UPDATE y DELETE sobre `clickobs`.
