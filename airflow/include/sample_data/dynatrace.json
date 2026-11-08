@@ -1,0 +1,4 @@
+{"records": [
+  {"managementZone": "Gateway de infraestructura", "ddu": 1250.0, "cost_usd": 3200.0},
+  {"managementZone": "API de pagos", "ddu": 300.0, "cost_usd": 780.0}
+]}

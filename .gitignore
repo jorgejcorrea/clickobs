@@ -8,3 +8,9 @@ target/
 # Sistema operativo
 .DS_Store
 Thumbs.db
+
+# Credenciales y basura de ejecución
+db.properties
+.env
+__pycache__/
+airflow/logs/

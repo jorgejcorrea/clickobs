@@ -1,0 +1,6 @@
+# Copiar este archivo como db.properties (en la carpeta desde donde se ejecuta la app)
+# y completar los datos. db.properties esta en .gitignore: NO subir credenciales a GitHub.
+# Tambien se pueden usar las variables de entorno CLICKOBS_DB_URL, CLICKOBS_DB_USER y CLICKOBS_DB_PASSWORD.
+db.url=jdbc:mysql://192.168.139.222:3306/clickobs?useUnicode=true&characterEncoding=UTF-8
+db.user=CAMBIAR_USUARIO
+db.password=CAMBIAR_PASSWORD
