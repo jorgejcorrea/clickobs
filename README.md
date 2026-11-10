@@ -124,4 +124,5 @@ Los datos de prueba no llevan tildes a propósito, para evitar problemas de codi
 
 Datos opcionales para el gráfico mensual: `db/Historico_demo_CLICKOBS.sql` (se quitan con `DELETE FROM consumo WHERE id_consumo > 5;`).
 
-**Video de presentación (3 min):** _pegar acá el enlace (YouTube privado o Drive)_
+**Video de presentación (3 min):** https://www.youtube.com/watch?v=bGuImoquN2g
+
